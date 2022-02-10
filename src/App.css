@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato;
+    margin-bottom: 100px;
+}
+
+#app {
+    width: 100%;
+    max-width: 768px;
+}
+
+
+#holidayList {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:20px
+  }
+  
+  #holidayList td, #holidayList th {
+    border: 1px solid #ddd;
+    padding: 10px 42px 9px 10px;
+  }
+  
+  #holidayList tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #holidayList tr:hover {background-color: #ddd;}
+  
+  #holidayList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #124084;
+    color: white;
+  }
+  .orderBy
+  {
+      background-color: none;
+      margin-top:20px;
+      color:white;
+      margin-left:50px;
+      margin-left: 150px;
+      margin-top: -52px;
+     
+    
+  }
+  .orderBy .Dropdown-menu 
+  {
+      top:none !important;
+      position:initial !important;
+  }
+  .orderBy .Dropdown-option 
+  {
+      color:black;
+  }
+  .orderBy .Dropdown-control
+  {
+      color:black;
+      border: 2px solid grey !important;
+  }
+  .orderBy .Dropdown-option.is-selected
+  {        background-color: #58585a !important;
+      color: #f9fd0a !important;
+  }
+  h3.movie-heading {
+    justify-content: center;
+      margin-left: 5%;
+      color: white;
+      margin-top: 30px;
+  }
+
